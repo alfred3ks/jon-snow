@@ -14,8 +14,12 @@
   margin-left: 20px;
 }
 
-.header__nav {
-  display: flex;
+.header__title a {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 15px;
+  color: white;
 }
 
 .nav__list {

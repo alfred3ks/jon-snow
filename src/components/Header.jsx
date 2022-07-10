@@ -4,7 +4,9 @@ import '../css/Header.css'
 export const Header = () => {
   return (
     <header className='header'>
-      <h1 className='header__title'>Jon Snow</h1>
+      <h1 className='header__title'>
+        <a href="/">Jon Snow</a>
+      </h1>
       <nav className='header__nav'>
         <ul className='nav__list'>
           <li><a href="/">Inicio</a></li>
