@@ -1,21 +1,13 @@
 import React from 'react';
 import '../css/Header.css'
+import NavBar from './NavBar';
 
 export const Header = () => {
+
+  const title = 'Jon Snow';
   return (
-    <header className='header'>
-      <h1 className='header__title'>
-        <a href="/">Jon Snow</a>
-      </h1>
-      <nav className='header__nav'>
-        <ul className='nav__list'>
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/">Que hago</a></li>
-          <li><a href="/">Quien soy</a></li>
-          <li><a href="/">Batallas</a></li>
-          <li><a href="/">Contacto</a></li>
-        </ul>
-      </nav>
+    <header className=''>
+      <NavBar title={title} />
     </header>);
 }
 
