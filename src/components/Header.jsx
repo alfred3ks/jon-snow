@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 export const Header = () => {
 
   const title = 'Jon Snow';
+
   return (
     <header className=''>
       <NavBar title={title} />

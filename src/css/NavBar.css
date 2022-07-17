@@ -1,0 +1,83 @@
+@font-face {
+  font-family: juego-de-tronos;
+  src: url(../font/gt.ttf);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: rgb(0, 48, 73);
+  box-shadow: 2px 2px 10px #000000;
+}
+
+.nav__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: juego-de-tronos, "Times New Roman", Times, serif;
+  margin-left: 40px;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  font-size: 1.8rem;
+  margin-right: 40px;
+}
+
+.nav__burger div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  margin-right: 40px;
+  background-color: white;
+  transition: 0.5s ease-in;
+}
+
+.nav__burger {
+  cursor: pointer;
+  display: none;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+  .nav__burger {
+    display: block;
+  }
+
+  .nav__menu {
+    position: fixed;
+    /* z-index: -4; */
+    top: 9vh;
+    right: 0;
+    width: 70%;
+    height: 91vh;
+    background-color: rgb(0, 48, 73);
+    margin: 0;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+}
+
+/* Desplazamiento menu lateral */
+.nav__active {
+  transform: translateX(0);
+}
+
+/* Animacion icono hamburguesa */
+.burger .nav__burger-line1 {
+  /* transform: rotate(-45deg) translate(-4px, 5px); */
+  transform: translateY(6px) rotateZ(45deg);
+}
+.burger .nav__burger-line2 {
+  opacity: 0;
+}
+.burger .nav__burger-line3 {
+  /* transform: rotate(45deg) translate(-4px, -5px); */
+  transform: translateY(-6px) rotateZ(-45deg);
+}
