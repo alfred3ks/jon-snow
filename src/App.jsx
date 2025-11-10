@@ -1,7 +1,7 @@
-import Title from './components/Title';
+import Header from './components/Header';
 
 const App = () => {
-  return <Title />;
+  return <Header />;
 };
 
 export default App;
