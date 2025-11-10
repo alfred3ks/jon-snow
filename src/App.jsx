@@ -1,5 +1,7 @@
+import Title from './components/Title';
+
 const App = () => {
-  return <h1>Jon Snow</h1>;
+  return <Title />;
 };
 
 export default App;
