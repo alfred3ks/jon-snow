@@ -5,5 +5,5 @@
 
 .title a {
   cursor: pointer;
-  color: white
+  color: var(--main-text-color);
 }
