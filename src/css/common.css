@@ -7,6 +7,11 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: juego-de-tronos;
+  src: url(../font/gt.ttf);
+}
+
 html {
   font-size: 62.5%;
 }
