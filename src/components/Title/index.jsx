@@ -1,12 +1,12 @@
 import styles from './Title.module.css';
+import data from '../../data/cv.json';
 
 const { title } = styles;
 
 const Title = () => {
-  const name = 'Jon Snow';
   return (
     <div className={title}>
-      <a href="/">{name}</a>
+      <a href="/">{data.name}</a>
     </div>
   );
 };
