@@ -1,3 +1,4 @@
+import Navbar from '../Navbar';
 import Title from '../Title';
 
 import styles from './Header.module.css';
@@ -7,6 +8,7 @@ const Header = () => {
   return (
     <header className={header}>
       <Title />
+      <Navbar />
     </header>
   );
 };

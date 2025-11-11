@@ -1,0 +1,58 @@
+.navMenu {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  width: 75%;
+  height: calc(100vh - 60px);
+  background-color: var(--main-brand-color);
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.list a {
+  color: var(--main-text-color);
+  font-size: 1.2rem;
+  font-family: juego-de-tronos, "Times New Roman", Times, serif;
+}
+
+.navActive {
+  transform: translateX(0);
+}
+
+/* Menu hamburguesa */
+.burguer {
+  width: 30px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 100%;
+  height: 2px;
+  background-color: var(--burger-line-color);
+  transition: transform 0.5s ease, opacity 0.3s ease;
+  border-radius: 4px;
+}
+
+/* Animacion icono hamburguesa */
+.burgerAnimation .line1 {
+  transform: translateY(7.6px) rotate(45deg);
+}
+
+.burgerAnimation .line2 {
+  opacity: 0;
+}
+
+.burgerAnimation .line3 {
+  transform: translateY(-7.6px) rotate(-45deg);
+}
