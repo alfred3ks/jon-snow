@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './Navbar.module.css';
+import Hamburger from './Hamburger';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +13,10 @@ const Navbar = () => {
           <a href="/">Inicio</a>
         </li>
         <li className={styles.list}>
-          <a href="#queHago">Que hago</a>
+          <a href="#que-hago">Que hago</a>
         </li>
         <li className={styles.list}>
-          <a href="#quienSoy">Quien soy</a>
+          <a href="#quien-soy">Quien soy</a>
         </li>
         <li className={styles.list}>
           <a href="#batallas">Batallas</a>
@@ -25,15 +26,8 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Boton hamburguesa */}
-      <div
-        className={`${styles.burguer} ${isOpen ? styles.burgerAnimation : ''}`}
-        onClick={toggleMenu}
-      >
-        <div className={styles.line1}></div>
-        <div className={styles.line2}></div>
-        <div className={styles.line3}></div>
-      </div>
+      {/* Boton hamburger */}
+      <Hamburger isOpen={isOpen} toggleMenu={toggleMenu} />
     </nav>
   );
 };
