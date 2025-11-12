@@ -30,3 +30,9 @@
 .burgerAnimation .line3 {
   transform: translateY(-7.6px) rotate(-45deg);
 }
+
+@media screen and (width >=1024px) {
+  .burguer {
+    display: none;
+  }
+}
