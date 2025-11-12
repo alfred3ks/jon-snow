@@ -1,11 +1,9 @@
 import styles from './Title.module.css';
-import data from '../../data/cv.json';
-
-const { title } = styles;
+import data from '../../../data/cv.json';
 
 const Title = () => {
   return (
-    <div className={title}>
+    <div className={styles.title}>
       <a href="/">{data.name}</a>
     </div>
   );
