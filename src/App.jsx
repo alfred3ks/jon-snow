@@ -1,7 +1,13 @@
 import Header from './components/Header';
 
+import './styles/common.css';
+
 const App = () => {
-  return <Header />;
+  return (
+    <div className="container">
+      <Header />
+    </div>
+  );
 };
 
 export default App;
