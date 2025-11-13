@@ -18,6 +18,7 @@
   --main-brand-color: rgb(0, 43, 66);
   --main-text-color: #fff;
   --burger-line-color: #fff;
+  --shadow-color: #000000;
 }
 
 html {
