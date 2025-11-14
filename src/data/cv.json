@@ -1,3 +1,22 @@
 {
-  "name": "Jon Snow"
+  "name": "Jon Snow",
+  "bio": {
+    "title": "Hola, soy AEGON TARGARYEN",
+    "subtitle": "Antes conocido como Jon Snow",
+    "description": "Bastardo de Ned Stark, lider de la guardia de la noche, proclamado Rey del Norte, y ahora leal escudero de Daenerys Targaryen.",
+    "images": [
+      {
+        "src": "/assets/images/js-movil.png",
+        "media": "(max-width: 425px)"
+      },
+      {
+        "src": "/assets/images/js-tablet.png",
+        "media": "(max-width: 768px)"
+      },
+      {
+        "src": "/assets/images/js-pc.png",
+        "media": "(max-width: 1024px)"
+      }
+    ]
+  }
 }
