@@ -16,9 +16,10 @@
 /* Colors */
 :root {
   --main-brand-color: rgb(0, 43, 66);
+  --main-bg-color: #000;
   --main-text-color: #fff;
   --burger-line-color: #fff;
-  --shadow-color: #000000;
+  --shadow-color: #000;
 }
 
 html {
@@ -27,7 +28,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  background-color: #000000;
+  background-color: var(--main-bg-color);
 }
 
 li {
@@ -36,10 +37,4 @@ li {
 
 a {
   text-decoration: none;
-}
-
-.container {
-  max-width: 1200px;
-  min-width: 300px;
-  margin: 0 auto;
 }

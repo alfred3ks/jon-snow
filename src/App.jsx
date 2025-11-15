@@ -1,14 +1,13 @@
+import Layout from './components/Layout';
 import Bio from './components/Bio';
 import Header from './components/Header';
 
-import './styles/common.css';
-
 const App = () => {
   return (
-    <div className="container">
+    <Layout>
       <Header />
       <Bio />
-    </div>
+    </Layout>
   );
 };
 
