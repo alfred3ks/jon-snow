@@ -6,17 +6,17 @@ const Bio = () => {
   return (
     <section className={styles.bio}>
       <picture className={styles.image}>
-        {data.bio.images.map((img, index) =>
+        {data.bio.images.map((img, id) =>
           img.media ? (
-            <source key={index} srcSet={img.src} media={img.media} />
+            <source key={id} srcSet={img.src} media={img.media} />
           ) : null
         )}
         <img
           src={
             data.bio.images.find((img) => !img.media)?.src ||
-            data.bio.images[2].src
+            data.bio.images[data.bio.images.length - 1].src
           }
-          alt="Jon Snow"
+          alt={data.name}
         />
       </picture>
       <div className={styles.content}>

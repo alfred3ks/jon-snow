@@ -1,88 +1,83 @@
 .bio {
   width: 100%;
   position: relative;
-  background-color: black;
-  text-align: center;
+  background-color: #000;
 }
 
-.image img {
+.bio .image img {
   max-width: 100%;
-  display: block;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
-.content {
+.bio .content {
   width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.content h1,
+.bio .content h1,
 h2,
 p {
   color: var(--main-text-color);
+  line-height: 1.5;
 }
 
-.content h1 {
+.bio .content h1 {
   font-size: 1.8rem;
-  line-height: 1.8;
+  margin-bottom: 10px;
   padding: 0 5px;
-  margin-bottom: 5px;
 }
 
-.content h2 {
+.bio .content h2 {
   font-size: 1.6rem;
-  line-height: 1.8;
-  margin-bottom: 5px;
 }
 
-.content p {
+.bio .content p {
   font-size: 1.4rem;
-  line-height: 1.4;
   padding: 0 15px;
 }
 
-.content .name {
+.bio .content .name {
   font-family: juego-de-tronos, "Times New Roman", Times, serif;
 }
 
 /* Media queries */
-@media screen and (width >=768px) {
-  .content {
-    padding: 100px;
+@media screen and (min-width: 768px) {
+  .bio .content {
+    padding: 130px;
   }
 
-  .content h1 {
+  .bio .content h1 {
     font-size: 2.2rem;
 
   }
 
-  .content h2 {
+  .bio .content h2 {
     font-size: 2rem;
   }
 
-  .content p {
+  .bio .content p {
     font-size: 1.8rem;
   }
 }
 
-@media screen and (width >=1024px) {
-  .content {
+@media screen and (min-width: 1024px) {
+  .bio .content {
     padding: 70px;
   }
 
-  .content h1 {
+  .bio .content h1 {
     font-size: 2.8rem;
-
   }
 
-  .content h2 {
+  .bio .content h2 {
     font-size: 2.4rem;
   }
 
-  .content p {
+  .bio .content p {
     font-size: 2.2rem;
   }
 }
