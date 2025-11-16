@@ -7,22 +7,222 @@
     "images": [
       {
         "id": 1,
-        "src": "/assets/images/js-movil.png",
+        "src": "/assets/images/bio/js-movil.png",
         "media": "(max-width: 426px)"
       },
       {
         "id": 2,
-        "src": "/assets/images/js-pc.png",
-        "media": "(max-width: 767px)"
+        "src": "/assets/images/bio/js-pc.png",
+        "media": "(min-width: 427px) and (max-width: 1024px)"
       },
       {
         "id": 3,
-        "src": "/assets/images/js-pc.png",
-        "media": "(max-width: 1024px)"
+        "src": "/assets/images/bio/js-pc.png",
+        "media": "(min-width: 1025px)"
       }
     ]
   },
-  "occupation": "",
-  "history": "",
-  "battles": ""
+  "occupation": [
+    {
+      "name": "Guardia de la Noche",
+      "id": 1,
+      "description": "Jon Snow avanza entre la nieve eterna del Muro. El viento corta como acero, pero su juramento lo sostiene. Como hermano de la Guardia de la Noche, vigila en silencio la oscuridad que acecha más allá del hielo.",
+      "images": [
+        {
+          "src": "/assets/images/occupation/guardia-noche-movil.png",
+          "media": "(max-width: 426px)",
+          "alt": "Guardia de la Noche"
+        },
+        {
+          "src": "/assets/images/occupation/guardia-noche-pc.png",
+          "media": "(min-width: 427px) and (max-width: 1024px)",
+          "alt": "Guardia de la Noche"
+        },
+        {
+          "src": "/assets/images/occupation/guardia-noche-pc.png",
+          "media": "(min-width: 1025px)",
+          "alt": "Guardia de la Noche"
+        }
+      ]
+    },
+    {
+      "name": "Rey del Norte",
+      "id": 2,
+      "description": "Jon Snow, Rey en el Norte, avanza con firmeza entre montes fríos y cielos grises. Su honor une a las casas del Norte, y su presencia inspira lealtad. Bajo su mando, el Norte resiste, orgulloso e indomable.",
+      "images": [
+        {
+          "src": "/assets/images/occupation/rey-del-norte-movil.png",
+          "media": "(max-width: 426px)",
+          "alt": "Rey del norte"
+        },
+        {
+          "src": "/assets/images/occupation/rey-del-norte-pc.png",
+          "media": "(min-width: 427px) and (max-width: 1024px)",
+          "alt": "Rey del norte"
+        },
+        {
+          "src": "/assets/images/occupation/rey-del-norte-pc.png",
+          "media": "(min-width: 1025px)",
+          "alt": "Rey del norte"
+        }
+      ]
+    },
+    {
+      "name": "Cuidador de Dragones",
+      "id": 3,
+      "description": "Jon Snow se mueve con calma entre el fuego y las sombras. Los dragones lo observan, reconociendo en él fuerza y respeto. Como su cuidador, comprende su poder antiguo y los guía con paciencia, valor y un vínculo indomable.",
+      "images": [
+        {
+          "src": "/assets/images/occupation/cuidador-de-dragones.png",
+          "media": "(max-width: 426px)",
+          "alt": "Cuidador de Dragones"
+        },
+        {
+          "src": "/assets/images/occupation/cuidador-de-dragones.png",
+          "media": "(min-width: 427px) and (max-width: 1024px)",
+          "alt": "Cuidador de Dragones"
+        },
+        {
+          "src": "/assets/images/occupation/cuidador-de-dragones.png",
+          "media": "(min-width: 1025px)",
+          "alt": "Cuidador de Dragones"
+        }
+      ]
+    },
+    {
+      "name": "Consejero Real",
+      "id": 4,
+      "description": "Jon Snow, consejero real, habla con prudencia y firmeza. Su experiencia en la guerra y en el Norte guía cada decisión. Ante el trono, ofrece verdad y lealtad, buscando siempre proteger el reino por encima de todo.",
+      "images": [
+        {
+          "src": "/assets/images/occupation/consejero-real-movil.png",
+          "media": "(max-width: 426px)",
+          "alt": "Consejero Real"
+        },
+        {
+          "src": "/assets/images/occupation/consejero-real-pc.png",
+          "media": "(min-width: 427px) and (max-width: 1024px)",
+          "alt": "Consejero Real"
+        },
+        {
+          "src": "/assets/images/occupation/consejero-real-pc.png",
+          "media": "(min-width: 1025px)",
+          "alt": "Consejero Real"
+        }
+      ]
+    }
+  ],
+  "history": {
+    "description": [
+      "Hijo de Rhaegar Targaryen y Lyanna Stark, soy el último príncipe de Rocadragón. Fui criado como bastardo de mi tío Lord Eddard Stark en Invernalia con el nombre de Jon Nieve, para ser protegido de la aniquilación de la casa Targaryen llevada a cabo por el rey Robert.",
+      "Me uní a la guardia de la noche llegando a convertirme en el Lord Comandante. Allí me asesinaron y, usando el poder de R'hllor, la Princesa Roja Melisandre me resucitó por petición de Ser Davos. Quedé liberado de mis obligaciones como guardia de la noche...",
+      "Junto a mi hermanastra Sansa Stark y con la ayuda de Ser Davos, Tormund y Brienne de Tarth, recuperé Invernalia y fui nombrado Rey en el Norte. Uniéndome a la Reina Dragón para luchar contra nuestro gran enemigo: el ejército del Rey de la Noche. You've got the North in you - the real North.",
+      "―Tormund.",
+      "Por fin, volví al Castillo Negro, en el muro, para reunirme con Tormund y volver a donde era mi sitio, al norte, al verdadero norte."
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "name": "Espada de dos manos"
+      },
+      {
+        "id": 2,
+        "name": "Montar a caballo"
+      },
+      {
+        "id": 3,
+        "name": "Luchar en nieve"
+      }
+    ]
+  },
+  "battles": [
+    {
+      "name": "La batalla del castillo cegro",
+      "id": 1,
+      "description": "Está encuadrada dentro de la guerra que mantiene la Guardia de la Noche contra los salvajes (llamados el Pueblo Libre). Esta batalla supone la derrota de los ejércitos de Mance Rayder y el triunfo de la Guardia con la colaboración imprescindible de Stannis Baratheon.",
+      "images": [
+        {
+          "src": "/assets/images/battles/batle-of-castle-black-movil.png",
+          "media": "(max-width: 426px)",
+          "alt": "La batalla del castillo negro"
+        },
+        {
+          "src": "/assets/images/battles/batle-of-castle-black-pc.png",
+          "media": "(min-width: 427px) and (max-width: 1024px)",
+          "alt": "La batalla del castillo negro"
+        },
+        {
+          "src": "/assets/images/battles/batle-of-castle-black-pc.png",
+          "media": "(min-width: 1025px)",
+          "alt": "La batalla del castillo negro"
+        }
+      ]
+    },
+    {
+      "name": "La batalla de los bastardos",
+      "id": 2,
+      "description": "Durante la guerra de los Cinco Reinos, Jon Nieve y Sansa Stark recuperan Invernalia de la que Ramsay Bolton, el Guardián del Norte, se ha apoderado. Tras la batalla, la Casa Stark vuelve a controlar el norte.",
+      "images": [
+        {
+          "src": "/assets/images/battles/batle-of-bastards-movil.png",
+          "media": "(max-width: 426px)",
+          "alt": "La batalla de los bastardos"
+        },
+        {
+          "src": "/assets/images/battles/batle-of-bastards-pc.png",
+          "media": "(min-width: 427px) and (max-width: 1024px)",
+          "alt": "La batalla de los bastardos"
+        },
+        {
+          "src": "/assets/images/battles/batle-of-bastards-pc.png",
+          "media": "(min-width: 1025px)",
+          "alt": "La batalla de los bastardos"
+        }
+      ]
+    },
+    {
+      "name": "La batalla de invernalia",
+      "id": 3,
+      "description": "Es la batalla final de la Gran Guerra entre una alianza de ejércitos (como los Starks, Arryns y Targaryans) contra el ejército de los muertos encabezados por los caminantes blancos.",
+      "images": [
+        {
+          "src": "/assets/images/battles/batle-of-winterfell-movil.png",
+          "media": "(max-width: 426px)",
+          "alt": "La batalla de invernalia"
+        },
+        {
+          "src": "/assets/images/battles/batle-of-winterfell-pc.png",
+          "media": "(min-width: 427px) and (max-width: 1024px)",
+          "alt": "La batalla de invernalia"
+        },
+        {
+          "src": "/assets/images/battles/batle-of-winterfell-pc.png",
+          "media": "(min-width: 1025px)",
+          "alt": "La batalla de invernalia"
+        }
+      ]
+    },
+    {
+      "name": "La batalla del desembarco del rey",
+      "id": 4,
+      "description": "Batalla final entre los seguidores de Daenerys Targaryen y las fuerzas Lannister lideradas por la Reina Cersei Lannister para controlar el Desembarco del Rey, la capital de los Siete Reinos y conseguir el Trono de Hierro.",
+      "images": [
+        {
+          "src": "/assets/images/battles/batle-of-kings-landing-movil.png",
+          "media": "(max-width: 426px)",
+          "alt": "La batalla del desembarco del rey"
+        },
+        {
+          "src": "/assets/images/battles/batle-of-kings-landing-pc.png",
+          "media": "(min-width: 427px) and (max-width: 1024px)",
+          "alt": "La batalla del desembarco del rey"
+        },
+        {
+          "src": "/assets/images/battles/batle-of-kings-landing-pc.png",
+          "media": "(min-width: 1025px)",
+          "alt": "La batalla del desembarco del rey"
+        }
+      ]
+    }
+  ]
 }
