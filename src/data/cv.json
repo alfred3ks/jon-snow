@@ -120,6 +120,23 @@
       "―Tormund.",
       "Por fin, volví al Castillo Negro, en el muro, para reunirme con Tormund y volver a donde era mi sitio, al norte, al verdadero norte."
     ],
+    "images": [
+      {
+        "src": "/assets/images/history/my-history-movil.png",
+        "media": "(max-width: 426px)",
+        "alt": "Mi historia"
+      },
+      {
+        "src": "/assets/images/history/my-history-pc.png",
+        "media": "(min-width: 427px) and (max-width: 1024px)",
+        "alt": "Mi historia"
+      },
+      {
+        "src": "/assets/images/history/my-history-pc.png",
+        "media": "(min-width: 1025px)",
+        "alt": "Mi historia"
+      }
+    ],
     "skills": [
       {
         "id": 1,
@@ -137,7 +154,7 @@
   },
   "battles": [
     {
-      "name": "La batalla del castillo cegro",
+      "name": "La batalla del castillo negro",
       "id": 1,
       "description": "Está encuadrada dentro de la guerra que mantiene la Guardia de la Noche contra los salvajes (llamados el Pueblo Libre). Esta batalla supone la derrota de los ejércitos de Mance Rayder y el triunfo de la Guardia con la colaboración imprescindible de Stannis Baratheon.",
       "images": [
