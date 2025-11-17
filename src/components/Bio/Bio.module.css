@@ -5,6 +5,7 @@
 }
 
 .bio .image img {
+  display: block;
   max-width: 100%;
   opacity: 0.4;
 }
