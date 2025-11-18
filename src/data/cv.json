@@ -73,17 +73,17 @@
       "description": "Jon Snow se mueve con calma entre el fuego y las sombras. Los dragones lo observan, reconociendo en él fuerza y respeto. Como su cuidador, comprende su poder antiguo y los guía con paciencia, valor y un vínculo indomable.",
       "images": [
         {
-          "src": "/assets/images/occupation/cuidador-de-dragones.png",
+          "src": "/assets/images/occupation/cuidador-de-dragones-movil.png",
           "media": "(max-width: 426px)",
           "alt": "Cuidador de Dragones"
         },
         {
-          "src": "/assets/images/occupation/cuidador-de-dragones.png",
+          "src": "/assets/images/occupation/cuidador-de-dragones-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "Cuidador de Dragones"
         },
         {
-          "src": "/assets/images/occupation/cuidador-de-dragones.png",
+          "src": "/assets/images/occupation/cuidador-de-dragones-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "Cuidador de Dragones"
         }
