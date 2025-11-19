@@ -1,0 +1,119 @@
+.history {
+  background-color: var(--tertiary-bg-color);
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  padding: 30px 0;
+  font-family: juego-de-tronos, "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph {
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+  padding-bottom: 20px;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.info .picture .image {
+  display: block;
+  width: 100%;
+}
+
+.skillContainer {
+  padding-bottom: 10px;
+}
+
+.skillItem {
+  padding: 10px 0;
+}
+
+.skillName {
+  margin-bottom: 5px;
+  font-size: 1.6rem;
+}
+
+.skillBar {
+  width: 100%;
+  height: 18px;
+  border-radius: 10px;
+  outline: 1px solid var(--main-brand-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2px;
+}
+
+.skillBar-1 {
+  height: 14px;
+  border-radius: 10px;
+  width: 92%;
+  background-color: var(--main-bar-skill);
+}
+
+.skillBar-2 {
+  height: 14px;
+  border-radius: 10px;
+  width: 85%;
+  background-color: var(--main-bar-skill);
+}
+
+.skillBar-3 {
+  height: 14px;
+  border-radius: 10px;
+  width: 97%;
+  background-color: var(--main-bar-skill);
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .description {
+    width: 50%;
+    padding: 10px 0;
+  }
+
+  .paragraph {
+    padding-bottom: 10px;
+  }
+
+  .info {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 80%;
+  }
+
+  .description {
+    width: 60%;
+  }
+
+  .paragraph {
+    padding-bottom: 18px;
+  }
+
+  .info {
+    width: 40%;
+  }
+}

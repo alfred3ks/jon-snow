@@ -3,7 +3,6 @@
   padding: 10px;
 }
 
-
 .title {
   text-align: center;
   padding: 30px 0;
@@ -37,13 +36,15 @@
 
 /* Media queries */
 @media screen and (min-width: 768px) {
-  .occupation {
-    padding: 0 35px 20px 35px;
-  }
-
   .container {
     grid-template-columns: 1fr 1fr;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 80%;
   }
 }
