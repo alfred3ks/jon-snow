@@ -15,16 +15,21 @@
 
 /* Colors */
 :root {
-  --main-brand-color: rgb(0, 43, 66);
+  --main-brand-color: #002B42;
   --main-bg-color: #000;
+  --secondary-bg-color: #efeffe;
   --main-text-color: #fff;
+  --secondary-text-color: #000;
   --burger-line-color: #fff;
   --shadow-color: #000;
 }
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
 }
+
 
 body {
   font-size: 1.6rem;
