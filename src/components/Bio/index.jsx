@@ -3,31 +3,26 @@ import styles from './Bio.module.css';
 import data from '../../data/cv.json';
 
 const Bio = () => {
+  const { images, title, subtitle, description } = data.bio;
+  const fallbackImage = images[images.length - 1];
+
   return (
     <section className={styles.bio}>
       <picture className={styles.image}>
-        {data.bio.images.map((img, id) =>
+        {images.map((img, id) =>
           img.media ? (
             <source key={id} srcSet={img.src} media={img.media} />
           ) : null
         )}
-        <img
-          src={
-            data.bio.images.find((img) => !img.media)?.src ||
-            data.bio.images[data.bio.images.length - 1].src
-          }
-          alt={data.name}
-        />
+        <img src={fallbackImage.src} alt={fallbackImage.alt} />
       </picture>
       <div className={styles.content}>
         <h1>
-          <span>{data.bio.title.split('AEGON TARGARYEN')[0]} </span>
-          <span className={styles.name}>
-            {data.bio.title.split('Hola, soy ')[1]}
-          </span>
+          <span>{title.split('AEGON TARGARYEN')[0]} </span>
+          <span className={styles.name}>{title.split('Hola, soy ')[1]}</span>
         </h1>
-        <h2>{data.bio.subtitle}</h2>
-        <p>{data.bio.description}</p>
+        <h2>{subtitle}</h2>
+        <p>{description}</p>
       </div>
     </section>
   );

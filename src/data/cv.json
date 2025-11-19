@@ -8,17 +8,20 @@
       {
         "id": 1,
         "src": "/assets/images/bio/js-movil.png",
-        "media": "(max-width: 426px)"
+        "media": "(max-width: 426px)",
+        "alt": "Imagen de Jon Snow"
       },
       {
         "id": 2,
         "src": "/assets/images/bio/js-pc.png",
-        "media": "(min-width: 427px) and (max-width: 1024px)"
+        "media": "(min-width: 427px) and (max-width: 1024px)",
+        "alt": "Imagen de Jon Snow"
       },
       {
         "id": 3,
         "src": "/assets/images/bio/js-pc.png",
-        "media": "(min-width: 1025px)"
+        "media": "(min-width: 1025px)",
+        "alt": "Imagen de Jon Snow"
       }
     ]
   },
