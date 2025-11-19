@@ -21,10 +21,6 @@
   padding-bottom: 20px;
 }
 
-.info {
-  margin-top: 10px;
-}
-
 .info .picture .image {
   display: block;
   width: 100%;
@@ -54,23 +50,24 @@
   padding: 0 2px;
 }
 
-.skillBar-1 {
+.skillBar-1,
+.skillBar-2,
+.skillBar-3 {
   height: 14px;
   border-radius: 10px;
+}
+
+.skillBar-1 {
   width: 92%;
   background-color: var(--main-bar-skill);
 }
 
 .skillBar-2 {
-  height: 14px;
-  border-radius: 10px;
   width: 85%;
   background-color: var(--main-bar-skill);
 }
 
 .skillBar-3 {
-  height: 14px;
-  border-radius: 10px;
   width: 97%;
   background-color: var(--main-bar-skill);
 }
@@ -79,16 +76,15 @@
 @media screen and (min-width: 768px) {
   .container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
-    gap: 40px;
+    gap: 20px;
     max-width: 90%;
     margin: 0 auto;
   }
 
   .description {
     width: 50%;
-    padding: 10px 0;
   }
 
   .paragraph {
@@ -106,7 +102,7 @@
   }
 
   .description {
-    width: 60%;
+    width: 70%;
   }
 
   .paragraph {
@@ -114,6 +110,6 @@
   }
 
   .info {
-    width: 40%;
+    width: 30%;
   }
 }
