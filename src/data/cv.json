@@ -124,17 +124,20 @@
       {
         "src": "/assets/images/history/my-history-movil.png",
         "media": "(max-width: 426px)",
-        "alt": "Mi historia"
+        "alt": "Mi historia",
+        "id": 1
       },
       {
         "src": "/assets/images/history/my-history-pc.png",
         "media": "(min-width: 427px) and (max-width: 1024px)",
-        "alt": "Mi historia"
+        "alt": "Mi historia",
+        "id": 2
       },
       {
         "src": "/assets/images/history/my-history-pc.png",
         "media": "(min-width: 1025px)",
-        "alt": "Mi historia"
+        "alt": "Mi historia",
+        "id": 3
       }
     ],
     "skills": [

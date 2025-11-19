@@ -33,7 +33,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
 }
 
 li {
