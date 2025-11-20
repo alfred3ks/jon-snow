@@ -1,25 +1,30 @@
 import data from '../../data/cv.json';
+import styles from './Battles.module.css';
 
 const Battles = () => {
   const { battles } = data;
   return (
-    <section>
-      <h3>Algunas de mis batallas</h3>
-      <div>
+    <section className={styles.battles} id="batallas">
+      <h3 className={styles.title}>Algunas de mis batallas</h3>
+      <div className={styles.container}>
         {battles.map(({ name, id, description, images }) => {
           const fallbackImage = images[images.length - 1];
           return (
-            <article key={id}>
-              <h3>{name}</h3>
-              <picture>
+            <article key={id} className={styles.card}>
+              <h3 className={styles.subTitle}>{name}</h3>
+              <picture className={styles.picture}>
                 {images.map((img, id) =>
                   img.media ? (
                     <source key={id} srcSet={img.src} media={img.media} />
                   ) : null
                 )}
-                <img src={fallbackImage.src} alt={fallbackImage.alt} />
+                <img
+                  className={styles.images}
+                  src={fallbackImage.src}
+                  alt={fallbackImage.alt}
+                />
               </picture>
-              <p>{description}</p>
+              <p className={styles.description}>{description}</p>
             </article>
           );
         })}

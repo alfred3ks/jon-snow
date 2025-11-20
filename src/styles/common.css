@@ -35,8 +35,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  /* background-color: var(--main-bg-color); */
-  background-color: #0a8ed5;
+  background-color: var(--main-bg-color);
 }
 
 li {
