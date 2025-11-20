@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <p>
-        Copyright ©{now}- {data.name}
+        Copyright ©{now} - {data.name} ❤️
       </p>
     </footer>
   );
