@@ -180,17 +180,20 @@
         {
           "src": "/assets/images/battles/battle-of-castle-black-movil.png",
           "media": "(max-width: 426px)",
-          "alt": "La batalla del castillo negro"
+          "alt": "La batalla del castillo negro",
+          "id": 1
         },
         {
           "src": "/assets/images/battles/battle-of-castle-black-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
-          "alt": "La batalla del castillo negro"
+          "alt": "La batalla del castillo negro",
+          "id": 2
         },
         {
           "src": "/assets/images/battles/battle-of-castle-black-pc.png",
           "media": "(min-width: 1025px)",
-          "alt": "La batalla del castillo negro"
+          "alt": "La batalla del castillo negro",
+          "id": 3
         }
       ]
     },
@@ -202,17 +205,20 @@
         {
           "src": "/assets/images/battles/battle-of-bastards-movil.png",
           "media": "(max-width: 426px)",
-          "alt": "La batalla de los bastardos"
+          "alt": "La batalla de los bastardos",
+          "id": 1
         },
         {
           "src": "/assets/images/battles/battle-of-bastards-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
-          "alt": "La batalla de los bastardos"
+          "alt": "La batalla de los bastardos",
+          "id": 2
         },
         {
           "src": "/assets/images/battles/battle-of-bastards-pc.png",
           "media": "(min-width: 1025px)",
-          "alt": "La batalla de los bastardos"
+          "alt": "La batalla de los bastardos",
+          "id": 3
         }
       ]
     },
@@ -224,17 +230,20 @@
         {
           "src": "/assets/images/battles/battle-of-winterfell-movil.png",
           "media": "(max-width: 426px)",
-          "alt": "La batalla de invernalia"
+          "alt": "La batalla de invernalia",
+          "id": 1
         },
         {
           "src": "/assets/images/battles/battle-of-winterfell-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
-          "alt": "La batalla de invernalia"
+          "alt": "La batalla de invernalia",
+          "id": 2
         },
         {
           "src": "/assets/images/battles/battle-of-winterfell-pc.png",
           "media": "(min-width: 1025px)",
-          "alt": "La batalla de invernalia"
+          "alt": "La batalla de invernalia",
+          "id": 3
         }
       ]
     },
@@ -246,17 +255,20 @@
         {
           "src": "/assets/images/battles/battle-of-kings-landing-movil.png",
           "media": "(max-width: 426px)",
-          "alt": "La batalla del desembarco del rey"
+          "alt": "La batalla del desembarco del rey",
+          "id": 1
         },
         {
           "src": "/assets/images/battles/battle-of-kings-landing-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
-          "alt": "La batalla del desembarco del rey"
+          "alt": "La batalla del desembarco del rey",
+          "id": 2
         },
         {
           "src": "/assets/images/battles/battle-of-kings-landing-pc.png",
           "media": "(min-width: 1025px)",
-          "alt": "La batalla del desembarco del rey"
+          "alt": "La batalla del desembarco del rey",
+          "id": 3
         }
       ]
     }

@@ -13,9 +13,9 @@ const Battles = () => {
             <article key={id} className={styles.card}>
               <h3 className={styles.subTitle}>{name}</h3>
               <picture className={styles.picture}>
-                {images.map((img, id) =>
+                {images.map((img) =>
                   img.media ? (
-                    <source key={id} srcSet={img.src} media={img.media} />
+                    <source key={img.id} srcSet={img.src} media={img.media} />
                   ) : null
                 )}
                 <img
