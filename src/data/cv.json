@@ -13,8 +13,8 @@
       },
       {
         "id": 2,
-        "src": "/assets/images/bio/js-pc.png",
-        "media": "(min-width: 427px) and (max-width: 1024px)",
+        "src": "/assets/images/bio/js-tablet.png",
+        "media": "(min-width: 427px) and (max-width: 1023px)",
         "alt": "Imagen de Jon Snow"
       },
       {
