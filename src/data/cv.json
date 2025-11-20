@@ -166,17 +166,17 @@
       "description": "Está encuadrada dentro de la guerra que mantiene la Guardia de la Noche contra los salvajes (llamados el Pueblo Libre). Esta batalla supone la derrota de los ejércitos de Mance Rayder y el triunfo de la Guardia con la colaboración imprescindible de Stannis Baratheon.",
       "images": [
         {
-          "src": "/assets/images/battles/batle-of-castle-black-movil.png",
+          "src": "/assets/images/battles/battle-of-castle-black-movil.png",
           "media": "(max-width: 426px)",
           "alt": "La batalla del castillo negro"
         },
         {
-          "src": "/assets/images/battles/batle-of-castle-black-pc.png",
+          "src": "/assets/images/battles/battle-of-castle-black-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "La batalla del castillo negro"
         },
         {
-          "src": "/assets/images/battles/batle-of-castle-black-pc.png",
+          "src": "/assets/images/battles/battle-of-castle-black-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "La batalla del castillo negro"
         }
@@ -188,17 +188,17 @@
       "description": "Durante la guerra de los Cinco Reinos, Jon Nieve y Sansa Stark recuperan Invernalia de la que Ramsay Bolton, el Guardián del Norte, se ha apoderado. Tras la batalla, la Casa Stark vuelve a controlar el norte.",
       "images": [
         {
-          "src": "/assets/images/battles/batle-of-bastards-movil.png",
+          "src": "/assets/images/battles/battle-of-bastards-movil.png",
           "media": "(max-width: 426px)",
           "alt": "La batalla de los bastardos"
         },
         {
-          "src": "/assets/images/battles/batle-of-bastards-pc.png",
+          "src": "/assets/images/battles/battle-of-bastards-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "La batalla de los bastardos"
         },
         {
-          "src": "/assets/images/battles/batle-of-bastards-pc.png",
+          "src": "/assets/images/battles/battle-of-bastards-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "La batalla de los bastardos"
         }
@@ -210,17 +210,17 @@
       "description": "Es la batalla final de la Gran Guerra entre una alianza de ejércitos (como los Starks, Arryns y Targaryans) contra el ejército de los muertos encabezados por los caminantes blancos.",
       "images": [
         {
-          "src": "/assets/images/battles/batle-of-winterfell-movil.png",
+          "src": "/assets/images/battles/battle-of-winterfell-movil.png",
           "media": "(max-width: 426px)",
           "alt": "La batalla de invernalia"
         },
         {
-          "src": "/assets/images/battles/batle-of-winterfell-pc.png",
+          "src": "/assets/images/battles/battle-of-winterfell-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "La batalla de invernalia"
         },
         {
-          "src": "/assets/images/battles/batle-of-winterfell-pc.png",
+          "src": "/assets/images/battles/battle-of-winterfell-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "La batalla de invernalia"
         }
@@ -232,17 +232,17 @@
       "description": "Batalla final entre los seguidores de Daenerys Targaryen y las fuerzas Lannister lideradas por la Reina Cersei Lannister para controlar el Desembarco del Rey, la capital de los Siete Reinos y conseguir el Trono de Hierro.",
       "images": [
         {
-          "src": "/assets/images/battles/batle-of-kings-landing-movil.png",
+          "src": "/assets/images/battles/battle-of-kings-landing-movil.png",
           "media": "(max-width: 426px)",
           "alt": "La batalla del desembarco del rey"
         },
         {
-          "src": "/assets/images/battles/batle-of-kings-landing-pc.png",
+          "src": "/assets/images/battles/battle-of-kings-landing-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "La batalla del desembarco del rey"
         },
         {
-          "src": "/assets/images/battles/batle-of-kings-landing-pc.png",
+          "src": "/assets/images/battles/battle-of-kings-landing-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "La batalla del desembarco del rey"
         }

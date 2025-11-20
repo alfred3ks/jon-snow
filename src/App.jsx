@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Occupation from './components/Occupation';
 import History from './components/History';
+import Battles from './components/Battles';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Bio />
       <Occupation />
       <History />
+      <Battles />
       <Footer />
     </Layout>
   );
