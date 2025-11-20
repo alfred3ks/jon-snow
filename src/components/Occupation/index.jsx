@@ -12,9 +12,9 @@ const Occupation = () => {
           return (
             <article key={id} className={styles.card}>
               <picture className={styles.picture}>
-                {images.map((img, id) =>
+                {images.map((img) =>
                   img.media ? (
-                    <source key={id} srcSet={img.src} media={img.media} />
+                    <source key={img.id} srcSet={img.src} media={img.media} />
                   ) : null
                 )}
                 <img

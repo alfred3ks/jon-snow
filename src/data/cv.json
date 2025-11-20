@@ -34,17 +34,20 @@
         {
           "src": "/assets/images/occupation/guardia-noche-movil.png",
           "media": "(max-width: 426px)",
-          "alt": "Guardia de la Noche"
+          "alt": "Guardia de la Noche",
+          "id": 1
         },
         {
           "src": "/assets/images/occupation/guardia-noche-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
-          "alt": "Guardia de la Noche"
+          "alt": "Guardia de la Noche",
+          "id": 2
         },
         {
           "src": "/assets/images/occupation/guardia-noche-pc.png",
           "media": "(min-width: 1025px)",
-          "alt": "Guardia de la Noche"
+          "alt": "Guardia de la Noche",
+          "id": 3
         }
       ]
     },
@@ -56,17 +59,20 @@
         {
           "src": "/assets/images/occupation/rey-del-norte-movil.png",
           "media": "(max-width: 426px)",
-          "alt": "Rey del norte"
+          "alt": "Rey del norte",
+          "id": 1
         },
         {
           "src": "/assets/images/occupation/rey-del-norte-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
-          "alt": "Rey del norte"
+          "alt": "Rey del norte",
+          "id": 2
         },
         {
           "src": "/assets/images/occupation/rey-del-norte-pc.png",
           "media": "(min-width: 1025px)",
-          "alt": "Rey del norte"
+          "alt": "Rey del norte",
+          "id": 3
         }
       ]
     },
@@ -78,17 +84,20 @@
         {
           "src": "/assets/images/occupation/cuidador-de-dragones-movil.png",
           "media": "(max-width: 426px)",
-          "alt": "Cuidador de Dragones"
+          "alt": "Cuidador de Dragones",
+          "id": 1
         },
         {
           "src": "/assets/images/occupation/cuidador-de-dragones-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
-          "alt": "Cuidador de Dragones"
+          "alt": "Cuidador de Dragones",
+          "id": 2
         },
         {
           "src": "/assets/images/occupation/cuidador-de-dragones-pc.png",
           "media": "(min-width: 1025px)",
-          "alt": "Cuidador de Dragones"
+          "alt": "Cuidador de Dragones",
+          "id": 3
         }
       ]
     },
@@ -100,17 +109,20 @@
         {
           "src": "/assets/images/occupation/consejero-real-movil.png",
           "media": "(max-width: 426px)",
-          "alt": "Consejero Real"
+          "alt": "Consejero Real",
+          "id": 1
         },
         {
           "src": "/assets/images/occupation/consejero-real-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
-          "alt": "Consejero Real"
+          "alt": "Consejero Real",
+          "id": 2
         },
         {
           "src": "/assets/images/occupation/consejero-real-pc.png",
           "media": "(min-width: 1025px)",
-          "alt": "Consejero Real"
+          "alt": "Consejero Real",
+          "id": 3
         }
       ]
     }
