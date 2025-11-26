@@ -1,4 +1,4 @@
-import data from '../../data/cv.json';
+import data from '../../../data/cv.json';
 import styles from './Footer.module.css';
 
 const Footer = () => {

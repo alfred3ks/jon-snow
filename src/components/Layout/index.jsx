@@ -1,7 +1,16 @@
+import Header from './Header';
+import Footer from './Footer';
+
 import styles from './Layout.module.css';
 
 const Layout = ({ children }) => {
-  return <main className={styles.main}>{children}</main>;
+  return (
+    <div className={styles.layoutWrapper}>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </div>
+  );
 };
 
 export default Layout;
