@@ -1,13 +1,17 @@
 .container {
   background-color: var(--secondary-bg-color);
-  padding: 0 10px;
+  padding: 10px;
 }
 
 .title {
   text-align: center;
   padding: 20px 0;
-  font-family: juego-de-tronos, "Times New Roman", Times, serif;
   font-size: 1.8rem;
+}
+
+.title,
+.subTitle {
+  font-family: juego-de-tronos, "Times New Roman", Times, serif;
 }
 
 .container-grid {
@@ -23,7 +27,6 @@
 }
 
 .subTitle {
-  font-family: juego-de-tronos, "Times New Roman", Times, serif;
   font-size: 1.2rem;
   text-align: center;
 }
