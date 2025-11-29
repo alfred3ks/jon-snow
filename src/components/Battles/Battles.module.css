@@ -1,4 +1,4 @@
-.battles {
+.container {
   background-color: var(--secondary-bg-color);
   padding: 10px;
 }
@@ -10,7 +10,7 @@
   font-size: 1.8rem;
 }
 
-.container {
+.container-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
@@ -36,7 +36,7 @@
 
 /* Media queries */
 @media screen and (min-width: 768px) {
-  .container {
+  .container-grid {
     grid-template-columns: 1fr 1fr;
     max-width: 90%;
     margin: 0 auto;
@@ -48,7 +48,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .container {
+  .container-grid {
     max-width: 80%;
   }
 

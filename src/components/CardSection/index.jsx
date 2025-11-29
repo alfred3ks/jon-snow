@@ -9,9 +9,9 @@ const CardSection = ({
   cardContentOrder,
 }) => {
   return (
-    <section className={parentStyles.occupation} id={idSection}>
+    <section className={parentStyles.container} id={idSection}>
       <h3 className={parentStyles.title}>{sectionTitle}</h3>
-      <div className={parentStyles.container}>
+      <div className={parentStyles['container-grid']}>
         {dataList.map(({ title, id, description, images }) => {
           const isImageFirst = cardContentOrder === 'image-first';
 

@@ -173,7 +173,7 @@
   },
   "battles": [
     {
-      "name": "La batalla del castillo negro",
+      "title": "La batalla del castillo negro",
       "id": 1,
       "description": "Está encuadrada dentro de la guerra que mantiene la Guardia de la Noche contra los salvajes (llamados el Pueblo Libre). Esta batalla supone la derrota de los ejércitos de Mance Rayder y el triunfo de la Guardia con la colaboración imprescindible de Stannis Baratheon.",
       "images": [
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "name": "La batalla de los bastardos",
+      "title": "La batalla de los bastardos",
       "id": 2,
       "description": "Durante la guerra de los Cinco Reinos, Jon Nieve y Sansa Stark recuperan Invernalia de la que Ramsay Bolton, el Guardián del Norte, se ha apoderado. Tras la batalla, la Casa Stark vuelve a controlar el norte.",
       "images": [
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "name": "La batalla de invernalia",
+      "title": "La batalla de invernalia",
       "id": 3,
       "description": "Es la batalla final de la Gran Guerra entre una alianza de ejércitos (como los Starks, Arryns y Targaryans) contra el ejército de los muertos encabezados por los caminantes blancos.",
       "images": [
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "name": "La batalla del desembarco del rey",
+      "title": "La batalla del desembarco del rey",
       "id": 4,
       "description": "Batalla final entre los seguidores de Daenerys Targaryen y las fuerzas Lannister lideradas por la Reina Cersei Lannister para controlar el Desembarco del Rey, la capital de los Siete Reinos y conseguir el Trono de Hierro.",
       "images": [
