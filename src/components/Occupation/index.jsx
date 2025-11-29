@@ -1,6 +1,5 @@
 import data from '../../data/cv.json';
 import CardSection from '../CardSection';
-import styles from './Occupation.module.css';
 
 const Occupation = () => {
   const { occupation } = data;
@@ -10,7 +9,6 @@ const Occupation = () => {
       cardContentOrder={'image-first'}
       idSection={'que-hago'}
       sectionTitle={'A que me dedico'}
-      parentStyles={styles}
     />
   );
 };

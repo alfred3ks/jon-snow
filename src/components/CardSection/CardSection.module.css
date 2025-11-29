@@ -1,0 +1,58 @@
+.container {
+  background-color: var(--secondary-bg-color);
+  padding: 0 10px;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+  font-family: juego-de-tronos, "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.card .picture .images {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.subTitle {
+  font-family: juego-de-tronos, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.description {
+  color: var(--secondary-text-color);
+  font-size: 1.4rem;
+  padding: 7px 0;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .subTitle {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-grid {
+    max-width: 80%;
+  }
+
+  .subTitle {
+    font-size: 1.6rem;
+  }
+}
