@@ -1,35 +1,34 @@
 import ImageElement from './ImageElement';
 import TitleElement from './TitleElement';
 
-import styles from './CardSection.module.css';
-
 const CardSection = ({
   dataList,
   idSection,
   sectionTitle,
-  cardContentOrder, // Nuevo prop para manejar el orden
+  parentStyles,
+  cardContentOrder,
 }) => {
   return (
-    <section className={styles.title} id={idSection}>
-      <h3 className={styles.title}>{sectionTitle}</h3>
-      <div className={styles.container}>
-        {dataList.map(({ name, id, description, images }) => {
+    <section className={parentStyles.occupation} id={idSection}>
+      <h3 className={parentStyles.title}>{sectionTitle}</h3>
+      <div className={parentStyles.container}>
+        {dataList.map(({ title, id, description, images }) => {
           const isImageFirst = cardContentOrder === 'image-first';
 
           return (
-            <article key={id} className={styles.card}>
+            <article key={id} className={parentStyles.card}>
               {isImageFirst ? (
                 <>
-                  <ImageElement images={images} />
-                  <TitleElement name={name} />
+                  <ImageElement images={images} parentStyles={parentStyles} />
+                  <TitleElement title={title} parentStyles={parentStyles} />
                 </>
               ) : (
                 <>
-                  <TitleElement name={name} />
-                  <ImageElement images={images} />
+                  <TitleElement title={title} parentStyles={parentStyles} />
+                  <ImageElement images={images} parentStyles={parentStyles} />
                 </>
               )}
-              <p className={styles.description}>{description}</p>
+              <p className={parentStyles.description}>{description}</p>
             </article>
           );
         })}

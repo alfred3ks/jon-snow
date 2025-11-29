@@ -27,7 +27,7 @@
   },
   "occupation": [
     {
-      "name": "Guardia de la Noche",
+      "title": "Guardia de la Noche",
       "id": 1,
       "description": "Jon Snow avanza entre la nieve eterna del Muro. El viento corta como acero, pero su juramento lo sostiene. Como hermano de la Guardia de la Noche, vigila en silencio la oscuridad que acecha más allá del hielo.",
       "images": [
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "name": "Rey del Norte",
+      "title": "Rey del Norte",
       "id": 2,
       "description": "Jon Snow, Rey en el Norte, avanza con firmeza entre montes fríos y cielos grises. Su honor une a las casas del Norte, y su presencia inspira lealtad. Bajo su mando, el Norte resiste, orgulloso e indomable.",
       "images": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "name": "Cuidador de Dragones",
+      "title": "Cuidador de Dragones",
       "id": 3,
       "description": "Jon Snow se mueve con calma entre el fuego y las sombras. Los dragones lo observan, reconociendo en él fuerza y respeto. Como su cuidador, comprende su poder antiguo y los guía con paciencia, valor y un vínculo indomable.",
       "images": [
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "name": "Consejero Real",
+      "title": "Consejero Real",
       "id": 4,
       "description": "Jon Snow, consejero real, habla con prudencia y firmeza. Su experiencia en la guerra y en el Norte guía cada decisión. Ante el trono, ofrece verdad y lealtad, buscando siempre proteger el reino por encima de todo.",
       "images": [

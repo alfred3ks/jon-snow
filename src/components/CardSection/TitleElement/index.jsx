@@ -1,7 +1,5 @@
-import styles from './TitleElement.module.css';
-
-const TitleElement = ({ name }) => {
-  return <h3 className={styles.title}>{name}</h3>;
+const TitleElement = ({ title, parentStyles }) => {
+  return <h3 className={parentStyles.subTitle}>{title}</h3>;
 };
 
 export default TitleElement;
