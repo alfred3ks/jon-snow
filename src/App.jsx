@@ -3,6 +3,7 @@ import Bio from './components/Bio';
 import Occupation from './components/Occupation';
 import History from './components/History';
 import Battles from './components/Battles';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Occupation />
       <History />
       <Battles />
+      <Contact />
     </Layout>
   );
 };
