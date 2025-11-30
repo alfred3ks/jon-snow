@@ -18,7 +18,7 @@ const Bio = () => {
       </picture>
       <div className={styles.content}>
         <h1>
-          <span>{title.split('AEGON TARGARYEN')[0]} </span>
+          <span>{title.split('Aegon Targaryen')[0]} </span>
           <span className={styles.name}>{title.split('Hola, soy ')[1]}</span>
         </h1>
         <h2>{subtitle}</h2>
