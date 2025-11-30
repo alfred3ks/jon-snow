@@ -10,8 +10,8 @@ El objetivo es practicar desarrollo web, estructura de componentes y estilos.
 - **HTML5**
 - **Modules CSS**
 - **JavaScript**
-- **React** (si aplica)
-- **Vite** (si aplica)
+- **React**
+- **Vite**
 
 ---
 
