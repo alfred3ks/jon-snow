@@ -1,5 +1,7 @@
 ### Curriculum Jon Snow
 
+![](./public/portada.jpg)
+
 Este proyecto es una página web creada con fines **educativos** y **demostrativos**, que simula un currículum vitae del personaje ficticio **Jon Snow** del universo _Game of Thrones_.
 El objetivo es practicar desarrollo web, estructura de componentes y estilos.
 
