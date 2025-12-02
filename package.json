@@ -1,7 +1,7 @@
 {
   "name": "jon-snow",
   "private": true,
-  "homepage": "https://alfred3ks.github.io/jon-snow/",
+  "homepage": "https://alfred3ks.github.io/jon-snow",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
