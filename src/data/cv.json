@@ -7,19 +7,19 @@
     "images": [
       {
         "id": 1,
-        "src": "/assets/images/bio/js-movil.png",
+        "src": "assets/images/bio/js-movil.png",
         "media": "(max-width: 426px)",
         "alt": "Imagen de Jon Snow"
       },
       {
         "id": 2,
-        "src": "/assets/images/bio/js-tablet.png",
+        "src": "assets/images/bio/js-tablet.png",
         "media": "(min-width: 427px) and (max-width: 1023px)",
         "alt": "Imagen de Jon Snow"
       },
       {
         "id": 3,
-        "src": "/assets/images/bio/js-pc.png",
+        "src": "assets/images/bio/js-pc.png",
         "media": "(min-width: 1025px)",
         "alt": "Imagen de Jon Snow"
       }
@@ -32,19 +32,19 @@
       "description": "Jon Snow avanza entre la nieve eterna del Muro. El viento corta como acero, pero su juramento lo sostiene. Como hermano de la Guardia de la Noche, vigila en silencio la oscuridad que acecha más allá del hielo.",
       "images": [
         {
-          "src": "/assets/images/occupation/guardia-noche-movil.png",
+          "src": "assets/images/occupation/guardia-noche-movil.png",
           "media": "(max-width: 426px)",
           "alt": "Guardia de la Noche",
           "id": 1
         },
         {
-          "src": "/assets/images/occupation/guardia-noche-pc.png",
+          "src": "assets/images/occupation/guardia-noche-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "Guardia de la Noche",
           "id": 2
         },
         {
-          "src": "/assets/images/occupation/guardia-noche-pc.png",
+          "src": "assets/images/occupation/guardia-noche-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "Guardia de la Noche",
           "id": 3
@@ -57,19 +57,19 @@
       "description": "Jon Snow, Rey en el Norte, avanza con firmeza entre montes fríos y cielos grises. Su honor une a las casas del Norte, y su presencia inspira lealtad. Bajo su mando, el Norte resiste, orgulloso e indomable.",
       "images": [
         {
-          "src": "/assets/images/occupation/rey-del-norte-movil.png",
+          "src": "assets/images/occupation/rey-del-norte-movil.png",
           "media": "(max-width: 426px)",
           "alt": "Rey del norte",
           "id": 1
         },
         {
-          "src": "/assets/images/occupation/rey-del-norte-pc.png",
+          "src": "assets/images/occupation/rey-del-norte-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "Rey del norte",
           "id": 2
         },
         {
-          "src": "/assets/images/occupation/rey-del-norte-pc.png",
+          "src": "assets/images/occupation/rey-del-norte-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "Rey del norte",
           "id": 3
@@ -82,19 +82,19 @@
       "description": "Jon Snow se mueve con calma entre el fuego y las sombras. Los dragones lo observan, reconociendo en él fuerza y respeto. Como su cuidador, comprende su poder antiguo y los guía con paciencia, valor y un vínculo indomable.",
       "images": [
         {
-          "src": "/assets/images/occupation/cuidador-de-dragones-movil.png",
+          "src": "assets/images/occupation/cuidador-de-dragones-movil.png",
           "media": "(max-width: 426px)",
           "alt": "Cuidador de Dragones",
           "id": 1
         },
         {
-          "src": "/assets/images/occupation/cuidador-de-dragones-pc.png",
+          "src": "assets/images/occupation/cuidador-de-dragones-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "Cuidador de Dragones",
           "id": 2
         },
         {
-          "src": "/assets/images/occupation/cuidador-de-dragones-pc.png",
+          "src": "assets/images/occupation/cuidador-de-dragones-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "Cuidador de Dragones",
           "id": 3
@@ -107,19 +107,19 @@
       "description": "Jon Snow, consejero real, habla con prudencia y firmeza. Su experiencia en la guerra y en el Norte guía cada decisión. Ante el trono, ofrece verdad y lealtad, buscando siempre proteger el reino por encima de todo.",
       "images": [
         {
-          "src": "/assets/images/occupation/consejero-real-movil.png",
+          "src": "assets/images/occupation/consejero-real-movil.png",
           "media": "(max-width: 426px)",
           "alt": "Consejero Real",
           "id": 1
         },
         {
-          "src": "/assets/images/occupation/consejero-real-pc.png",
+          "src": "assets/images/occupation/consejero-real-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "Consejero Real",
           "id": 2
         },
         {
-          "src": "/assets/images/occupation/consejero-real-pc.png",
+          "src": "assets/images/occupation/consejero-real-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "Consejero Real",
           "id": 3
@@ -138,19 +138,19 @@
     ],
     "images": [
       {
-        "src": "/assets/images/history/my-history-movil.png",
+        "src": "assets/images/history/my-history-movil.png",
         "media": "(max-width: 426px)",
         "alt": "Mi historia",
         "id": 1
       },
       {
-        "src": "/assets/images/history/my-history-pc.png",
+        "src": "assets/images/history/my-history-pc.png",
         "media": "(min-width: 427px) and (max-width: 1024px)",
         "alt": "Mi historia",
         "id": 2
       },
       {
-        "src": "/assets/images/history/my-history-pc.png",
+        "src": "assets/images/history/my-history-pc.png",
         "media": "(min-width: 1025px)",
         "alt": "Mi historia",
         "id": 3
@@ -178,19 +178,19 @@
       "description": "Está encuadrada dentro de la guerra que mantiene la Guardia de la Noche contra los salvajes (llamados el Pueblo Libre). Esta batalla supone la derrota de los ejércitos de Mance Rayder y el triunfo de la Guardia con la colaboración imprescindible de Stannis Baratheon.",
       "images": [
         {
-          "src": "/assets/images/battles/battle-of-castle-black-movil.png",
+          "src": "assets/images/battles/battle-of-castle-black-movil.png",
           "media": "(max-width: 426px)",
           "alt": "La batalla del castillo negro",
           "id": 1
         },
         {
-          "src": "/assets/images/battles/battle-of-castle-black-pc.png",
+          "src": "assets/images/battles/battle-of-castle-black-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "La batalla del castillo negro",
           "id": 2
         },
         {
-          "src": "/assets/images/battles/battle-of-castle-black-pc.png",
+          "src": "assets/images/battles/battle-of-castle-black-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "La batalla del castillo negro",
           "id": 3
@@ -203,19 +203,19 @@
       "description": "Durante la guerra de los Cinco Reinos, Jon Nieve y Sansa Stark recuperan Invernalia de la que Ramsay Bolton, el Guardián del Norte, se ha apoderado. Tras la batalla, la Casa Stark vuelve a controlar el norte.",
       "images": [
         {
-          "src": "/assets/images/battles/battle-of-bastards-movil.png",
+          "src": "assets/images/battles/battle-of-bastards-movil.png",
           "media": "(max-width: 426px)",
           "alt": "La batalla de los bastardos",
           "id": 1
         },
         {
-          "src": "/assets/images/battles/battle-of-bastards-pc.png",
+          "src": "assets/images/battles/battle-of-bastards-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "La batalla de los bastardos",
           "id": 2
         },
         {
-          "src": "/assets/images/battles/battle-of-bastards-pc.png",
+          "src": "assets/images/battles/battle-of-bastards-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "La batalla de los bastardos",
           "id": 3
@@ -228,19 +228,19 @@
       "description": "Es la batalla final de la Gran Guerra entre una alianza de ejércitos (como los Starks, Arryns y Targaryans) contra el ejército de los muertos encabezados por los caminantes blancos.",
       "images": [
         {
-          "src": "/assets/images/battles/battle-of-winterfell-movil.png",
+          "src": "assets/images/battles/battle-of-winterfell-movil.png",
           "media": "(max-width: 426px)",
           "alt": "La batalla de invernalia",
           "id": 1
         },
         {
-          "src": "/assets/images/battles/battle-of-winterfell-pc.png",
+          "src": "assets/images/battles/battle-of-winterfell-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "La batalla de invernalia",
           "id": 2
         },
         {
-          "src": "/assets/images/battles/battle-of-winterfell-pc.png",
+          "src": "assets/images/battles/battle-of-winterfell-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "La batalla de invernalia",
           "id": 3
@@ -253,19 +253,19 @@
       "description": "Batalla final entre los seguidores de Daenerys Targaryen y las fuerzas Lannister lideradas por la Reina Cersei Lannister para controlar el Desembarco del Rey, la capital de los Siete Reinos y conseguir el Trono de Hierro.",
       "images": [
         {
-          "src": "/assets/images/battles/battle-of-kings-landing-movil.png",
+          "src": "assets/images/battles/battle-of-kings-landing-movil.png",
           "media": "(max-width: 426px)",
           "alt": "La batalla del desembarco del rey",
           "id": 1
         },
         {
-          "src": "/assets/images/battles/battle-of-kings-landing-pc.png",
+          "src": "assets/images/battles/battle-of-kings-landing-pc.png",
           "media": "(min-width: 427px) and (max-width: 1024px)",
           "alt": "La batalla del desembarco del rey",
           "id": 2
         },
         {
-          "src": "/assets/images/battles/battle-of-kings-landing-pc.png",
+          "src": "assets/images/battles/battle-of-kings-landing-pc.png",
           "media": "(min-width: 1025px)",
           "alt": "La batalla del desembarco del rey",
           "id": 3

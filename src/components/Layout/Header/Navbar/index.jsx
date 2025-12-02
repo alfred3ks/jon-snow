@@ -2,6 +2,12 @@ import { useState } from 'react';
 import styles from './Navbar.module.css';
 import Hamburger from './Hamburger';
 
+/*
+Obtiene la ruta base configurada en vite.config.js ('/' o '/nombre-del-repo/')
+Esto permite que los enlaces funcionen correctamente tanto en desarrollo local como cuando la aplicación se despliega en un subdirectorio como GitHub Pages.
+*/
+const BASE_URL = import.meta.env.BASE_URL;
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen((prev) => !prev);
@@ -17,7 +23,7 @@ const Navbar = () => {
           }`}
           onClick={() => setActiveLink('inicio')}
         >
-          <a href="/">Inicio</a>
+          <a href={BASE_URL}>Inicio</a>
         </li>
         <li
           className={`${styles.list} ${
