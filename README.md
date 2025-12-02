@@ -2,8 +2,8 @@
 
 ![](./public/portada.jpg)
 
-Este proyecto es una página web creada con fines **educativos** y **demostrativos**, que simula un currículum vitae del personaje ficticio **Jon Snow** del universo _Game of Thrones_.
-El objetivo es practicar desarrollo web, estructura de componentes y estilos.
+Este proyecto es una página web creada con fines **educativos** y **demostrativos**, que simula un currículum vitae del personaje **Jon Snow** del universo _Game of Thrones_.
+El objetivo es practicar desarrollo web, estructura de componentes con React y estilos.
 
 ---
 
@@ -23,61 +23,63 @@ El objetivo es practicar desarrollo web, estructura de componentes y estilos.
 src
 ├── App.jsx
 ├── components
-│ ├── Battles
-│ │ └── index.jsx
-│ ├── Bio
-│ │ ├── Bio.module.css
-│ │ └── index.jsx
-│ ├── CardSection
-│ │ ├── CardSection.module.css
-│ │ ├── ImageElement
-│ │ │ └── index.jsx
-│ │ ├── TitleElement
-│ │ │ └── index.jsx
-│ │ └── index.jsx
-│ ├── Contact
-│ │ ├── Contact.module.css
-│ │ └── index.jsx
-│ ├── History
-│ │ ├── History.module.css
-│ │ └── index.jsx
-│ ├── Layout
-│ │ ├── Footer
-│ │ │ ├── Footer.module.css
-│ │ │ └── index.jsx
-│ │ ├── Header
-│ │ │ ├── Header.module.css
-│ │ │ ├── Navbar
-│ │ │ │ ├── Hamburger
-│ │ │ │ │ ├── Hamburger.module.css
-│ │ │ │ │ └── index.jsx
-│ │ │ │ ├── Navbar.module.css
-│ │ │ │ └── index.jsx
-│ │ │ ├── Title
-│ │ │ │ ├── Title.module.css
-│ │ │ │ └── index.jsx
-│ │ │ └── index.jsx
-│ │ ├── Layout.module.css
-│ │ └── index.jsx
-│ └── Occupation
-│ └── index.jsx
+│   ├── Battles
+│   │   └── index.jsx
+│   ├── Bio
+│   │   ├── Bio.module.css
+│   │   └── index.jsx
+│   ├── CardSection
+│   │   ├── CardSection.module.css
+│   │   ├── ImageElement
+│   │   │   └── index.jsx
+│   │   ├── TitleElement
+│   │   │   └── index.jsx
+│   │   └── index.jsx
+│   ├── Contact
+│   │   ├── Contact.module.css
+│   │   └── index.jsx
+│   ├── History
+│   │   ├── History.module.css
+│   │   └── index.jsx
+│   ├── Layout
+│   │   ├── Footer
+│   │   │   ├── Footer.module.css
+│   │   │   └── index.jsx
+│   │   ├── Header
+│   │   │   ├── Header.module.css
+│   │   │   ├── Navbar
+│   │   │   │   ├── Hamburger
+│   │   │   │   │   ├── Hamburger.module.css
+│   │   │   │   │   └── index.jsx
+│   │   │   │   ├── Navbar.module.css
+│   │   │   │   └── index.jsx
+│   │   │   ├── Title
+│   │   │   │   ├── Title.module.css
+│   │   │   │   └── index.jsx
+│   │   │   └── index.jsx
+│   │   ├── Layout.module.css
+│   │   └── index.jsx
+│   ├── Occupation
+│   │   └── index.jsx
+│   └── SnowEffect
+│       ├── SnowEffect.module.css
+│       └── index.jsx
 ├── data
-│ └── cv.json
+│   └── cv.json
 ├── font
-│ └── gt.ttf
+│   └── gt.ttf
 ├── main.jsx
 └── styles
-└── common.css
+    └── common.css
 index.html
 README.md
-
 ```
 
 ---
 
 #### 🧩 Funcionalidades
 
-- Diseño responsive.
+- Mobile First.
 - Componentes reutilizables.
 - Secciones: Presentación, experiencia, habilidades, galería o logros.
 - Uso de imágenes y datos simulados del personaje.
@@ -93,8 +95,6 @@ npm install
 # Ejecutar en modo desarrollo
 npm run dev
 
-# Build para producción
-npm run build
 ```
 
 ---
@@ -110,7 +110,7 @@ Si eres titular de los derechos y deseas que se retire algún material, por favo
 
 Si quieres comunicarte conmigo:
 
-- **Nombre:** Alfredo Sánchez
+- **Nombre:** Alfredo Sánchez 🦅
 - **Email:** [alfred3ks@gmail.com](mailto:alfred3ks@gmail.com)
 - **GitHub:** [@alfred3ks](https://github.com/alfred3ks)
 - **Twitter:** [@alfred3ks](https://twitter.com/alfred3ks)
