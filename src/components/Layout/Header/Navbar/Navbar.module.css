@@ -25,6 +25,11 @@
   transition: right 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.activeLink a {
+  border-bottom: 2px solid var(--main-text-color);
+  padding-bottom: 5px;
+}
+
 /* Media queries */
 @media screen and (min-width: 1024px) {
   .navMenu {
